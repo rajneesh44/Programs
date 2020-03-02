@@ -62,7 +62,7 @@ class Bankers
 					System.out.println("Unsafe");
 				}
 			}
-		}
+		}                                  
 		if(f==0){
 		while(true)
 		{
@@ -96,8 +96,8 @@ class Bankers
 				else
 				{
 					process_complete[ip]=1;
-					System.out.println("Process "+ip+" can be allocated the resources..");
-					System.out.println("Process Terminated. Releasing resources..");
+					System.out.println("Process "+(ip+1)+" can be allocated with the resources..");
+					System.out.println("Process "+(ip+1)+" Terminated. Releasing the resources..");
 					System.out.println("The resources available after release are:");
 					for(c=0;c<nr;c++)
 					{
